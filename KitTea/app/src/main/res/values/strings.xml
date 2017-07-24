@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">KitTea</string>
+    <string name="description">Modern, Cat-oriented cafe offering Japanese teas, local snacks and a
+lounge for playtime with felines.</string>
+    <string name="address">96 Gough St, San Francisco, CA 94102</string>
+    <string name="number">(415) 658-7888</string>
+</resources>

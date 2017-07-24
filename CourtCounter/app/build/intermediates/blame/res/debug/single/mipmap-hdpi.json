@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/CourtCounter/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/CourtCounter/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/CourtCounter/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/CourtCounter/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    }
+]

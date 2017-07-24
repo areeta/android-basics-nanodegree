@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/CourtCounter/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/AreetaW/.android/build-cache/b1f8255d57addf40cc3187ac73ba86053f104fba/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/CourtCounter/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/AreetaW/.android/build-cache/b1f8255d57addf40cc3187ac73ba86053f104fba/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/CourtCounter/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/AreetaW/.android/build-cache/b1f8255d57addf40cc3187ac73ba86053f104fba/output/res/layout-v21/notification_action.xml"
+    },
+    {
+        "merged": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/CourtCounter/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/AreetaW/.android/build-cache/b1f8255d57addf40cc3187ac73ba86053f104fba/output/res/layout-v21/notification_template_icon_group.xml"
+    }
+]

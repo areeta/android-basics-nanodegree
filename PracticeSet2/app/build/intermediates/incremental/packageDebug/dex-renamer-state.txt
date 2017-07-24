@@ -1,0 +1,7 @@
+#Wed Jul 12 16:54:11 PDT 2017
+base.0=/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/PracticeSet2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1f5be3943a560b15177e11be96eadf957b6cdabe
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/PracticeSet2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0390f31c3e8cb92fbb0a3268f1d818c74a98cdb9/classes.dex
+base.1=/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/PracticeSet2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0390f31c3e8cb92fbb0a3268f1d818c74a98cdb9
+file.0=/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/PracticeSet2/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1f5be3943a560b15177e11be96eadf957b6cdabe/classes.dex

@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/PracticeSet2/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/AreetaW/.android/build-cache/b1f8255d57addf40cc3187ac73ba86053f104fba/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/PracticeSet2/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/AreetaW/.android/build-cache/b1f8255d57addf40cc3187ac73ba86053f104fba/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/PracticeSet2/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/AreetaW/.android/build-cache/b1f8255d57addf40cc3187ac73ba86053f104fba/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/PracticeSet2/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/AreetaW/.android/build-cache/b1f8255d57addf40cc3187ac73ba86053f104fba/output/res/drawable-v21/abc_btn_colored_material.xml"
+    }
+]

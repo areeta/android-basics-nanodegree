@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/PracticeSet2/app/build/intermediates/res/merged/debug/anim/abc_fade_out.xml",
+        "source": "/Users/AreetaW/.android/build-cache/b1f8255d57addf40cc3187ac73ba86053f104fba/output/res/anim/abc_fade_out.xml"
+    },
+    {
+        "merged": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/PracticeSet2/app/build/intermediates/res/merged/debug/anim/abc_slide_out_top.xml",
+        "source": "/Users/AreetaW/.android/build-cache/b1f8255d57addf40cc3187ac73ba86053f104fba/output/res/anim/abc_slide_out_top.xml"
+    },
+    {
+        "merged": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/PracticeSet2/app/build/intermediates/res/merged/debug/anim/abc_grow_fade_in_from_bottom.xml",
+        "source": "/Users/AreetaW/.android/build-cache/b1f8255d57addf40cc3187ac73ba86053f104fba/output/res/anim/abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/PracticeSet2/app/build/intermediates/res/merged/debug/anim/abc_shrink_fade_out_from_bottom.xml",
+        "source": "/Users/AreetaW/.android/build-cache/b1f8255d57addf40cc3187ac73ba86053f104fba/output/res/anim/abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/PracticeSet2/app/build/intermediates/res/merged/debug/anim/abc_slide_in_top.xml",
+        "source": "/Users/AreetaW/.android/build-cache/b1f8255d57addf40cc3187ac73ba86053f104fba/output/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/PracticeSet2/app/build/intermediates/res/merged/debug/anim/abc_popup_exit.xml",
+        "source": "/Users/AreetaW/.android/build-cache/b1f8255d57addf40cc3187ac73ba86053f104fba/output/res/anim/abc_popup_exit.xml"
+    },
+    {
+        "merged": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/PracticeSet2/app/build/intermediates/res/merged/debug/anim/abc_popup_enter.xml",
+        "source": "/Users/AreetaW/.android/build-cache/b1f8255d57addf40cc3187ac73ba86053f104fba/output/res/anim/abc_popup_enter.xml"
+    },
+    {
+        "merged": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/PracticeSet2/app/build/intermediates/res/merged/debug/anim/abc_slide_in_bottom.xml",
+        "source": "/Users/AreetaW/.android/build-cache/b1f8255d57addf40cc3187ac73ba86053f104fba/output/res/anim/abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/PracticeSet2/app/build/intermediates/res/merged/debug/anim/abc_slide_out_bottom.xml",
+        "source": "/Users/AreetaW/.android/build-cache/b1f8255d57addf40cc3187ac73ba86053f104fba/output/res/anim/abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/PracticeSet2/app/build/intermediates/res/merged/debug/anim/abc_fade_in.xml",
+        "source": "/Users/AreetaW/.android/build-cache/b1f8255d57addf40cc3187ac73ba86053f104fba/output/res/anim/abc_fade_in.xml"
+    }
+]

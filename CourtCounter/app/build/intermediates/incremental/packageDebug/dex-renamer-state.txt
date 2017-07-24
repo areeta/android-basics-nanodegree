@@ -1,0 +1,7 @@
+#Fri Jul 14 04:01:10 PDT 2017
+base.0=/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/CourtCounter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_71475a06d9cff7703143ec11c0ee09b5bb1d17ac
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/CourtCounter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c4bf814c805b9d62199b99b644b22ee422221384/classes.dex
+base.1=/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/CourtCounter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_c4bf814c805b9d62199b99b644b22ee422221384
+file.0=/Users/AreetaW/Desktop/Android-Basics-Nanodegree-master/CourtCounter/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_71475a06d9cff7703143ec11c0ee09b5bb1d17ac/classes.dex

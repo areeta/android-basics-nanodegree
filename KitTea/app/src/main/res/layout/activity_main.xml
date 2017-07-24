@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorLight">
+
+    <ImageView
+        android:id="@+id/photo_of_cat"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_height"
+        android:src="@drawable/catto"
+        android:layout_marginTop="@dimen/header_top" />
+
+    <RatingBar
+        android:id="@+id/ratings"
+        style="?android:attr/ratingBarStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:rating="4.5"
+        android:stepSize="0.5"
+        android:layout_below="@+id/photo_of_cat"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/rating"/>
+
+    <ImageView
+        android:id="@+id/info_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/info"
+        android:layout_below="@id/ratings"
+        android:layout_marginLeft="@dimen/margin" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_below="@id/ratings"
+        android:text="@string/description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/info_icon"
+        android:layout_alignLeft="@id/info_icon"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_marginLeft="@dimen/left_margin"/>
+
+    <ImageView
+        android:id="@+id/home_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/home"
+        android:layout_below="@+id/info_icon"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"/>
+
+    <TextView
+        android:id="@+id/address"
+        android:text="@string/address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_alignTop="@+id/home_icon"
+        android:layout_alignLeft="@+id/description"
+        android:layout_alignStart="@+id/description" />
+
+    <ImageView
+        android:id="@+id/number_icon"
+        android:layout_below="@+id/home_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/number"
+        android:layout_marginLeft="@dimen/margin"
+        android:layout_marginTop="@dimen/margin"/>
+
+    <TextView
+        android:id="@+id/numbers"
+        android:text="@string/number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:layout_alignTop="@+id/number_icon"
+        android:layout_alignLeft="@+id/description"
+        android:layout_alignStart="@+id/description"
+        android:autoLink="phone"/>
+
+    <ImageView
+        android:id="@+id/bottom_picture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/bottom_cattos"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/number_icon" />
+
+</RelativeLayout>
