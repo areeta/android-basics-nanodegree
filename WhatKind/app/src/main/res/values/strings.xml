@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">What Kind?</string>
+    <string name="question1">1. what kind of dog is this?</string>
+    <string name="question2">2. what kind of cat is this?</string>
+    <string name="question3">3. what kind of math is this?</string>
+    <string name="question4">4. what kind of blue is this?</string>
+    <string name="question5">5. what kind of veggie is this?</string>
+    <string name="question6">6. what kind of computer is this?</string>
+
+</resources>
