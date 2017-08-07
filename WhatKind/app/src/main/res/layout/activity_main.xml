@@ -48,13 +48,8 @@
             android:inputType="textCapWords" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="sans-serif-smallcaps"
-            android:gravity="center"
-            android:text="@string/question1"
-            android:textSize="20dp"
-            android:layout_margin="5dp"/>
+            style="@style/Questions"
+            android:text="@string/question1" />
 
         <ImageView
             android:layout_width="wrap_content"
@@ -65,28 +60,55 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <CheckBox
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="10dp"
-            android:text="Corgi"
-            android:textSize="20dp" />
+            <RadioButton
+                style="@style/Answers"
+                android:text="Corgi"/>
 
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="Chihuahua"
-                android:textSize="20dp" />
+            <RadioButton
+                style="@style/Answers"
+                android:text="Chihuahua"/>
 
-            <CheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="10dp"
-                android:text="Shiba"
-                android:textSize="20dp" />
+            <RadioButton
+                style="@style/Answers"
+                android:text="Shiba"/>
 
         </LinearLayout>
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/question2"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/tabby" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                style="@style/Answers"
+                android:text="Birman" />
+
+            <RadioButton
+                style="@style/Answers"
+                android:text="Tabby" />
+
+            <RadioButton
+                style="@style/Answers"
+                android:text="Persian" />
+
+        </LinearLayout>
+
+        <TextView
+            style="@style/Questions"
+            android:text="@string/question3"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/geometry" />
 
         <EditText
             android:id="@+id/corgi"
@@ -97,49 +119,32 @@
             android:inputType="textCapWords" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="70dp"
-            android:fontFamily="casual"
-            android:gravity="center"
-            android:text="scroll down to play"
-            android:textSize="20dp" />
+            style="@style/Questions"
+            android:text="@string/question4"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/cyan" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="70dp"
-            android:fontFamily="casual"
-            android:gravity="center"
-            android:text="scroll down to play"
-            android:textSize="20dp" />
+            style="@style/Questions"
+            android:text="@string/question5"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/kohlrabi" />
 
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="70dp"
-            android:fontFamily="casual"
-            android:gravity="center"
-            android:text="scroll down to play"
-            android:textSize="20dp" />
+            style="@style/Questions"
+            android:text="@string/question6"/>
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="70dp"
-            android:fontFamily="casual"
-            android:gravity="center"
-            android:text="scroll down to play"
-            android:textSize="20dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="150dp"
+            android:src="@drawable/mac" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_margin="70dp"
-            android:fontFamily="casual"
-            android:gravity="center"
-            android:text="scroll down to play"
-            android:textSize="20dp" />
 
         <Button
             android:layout_width="wrap_content"
