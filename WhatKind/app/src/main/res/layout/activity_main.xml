@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -12,7 +11,6 @@
         android:orientation="vertical"
         android:padding="10dp">
 
-
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -20,7 +18,7 @@
             android:fontFamily="sans-serif-smallcaps"
             android:gravity="center"
             android:text="What Kind?"
-            android:textSize="70dp" />
+            android:textSize="70sp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -29,7 +27,7 @@
             android:fontFamily="casual"
             android:gravity="center"
             android:text="scroll down to play"
-            android:textSize="25dp" />
+            android:textSize="25sp" />
 
         <TextView
             style="@style/Questions"
@@ -42,20 +40,27 @@
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
 
-            <RadioButton
-                android:id="@+id/corgi"
-                style="@style/Answers"
-                android:text="Corgi" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-            <RadioButton
-                style="@style/Answers"
-                android:text="Chihuahua" />
+                <RadioButton
+                    android:id="@+id/corgi"
+                    style="@style/Answers"
+                    android:text="Corgi" />
 
-            <RadioButton
-                style="@style/Answers"
-                android:text="Shiba" />
+                <RadioButton
+                    style="@style/Answers"
+                    android:text="Chihuahua" />
+
+                <RadioButton
+                    style="@style/Answers"
+                    android:text="Shiba" />
+            </RadioGroup>
 
         </LinearLayout>
 
@@ -72,18 +77,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <RadioButton
-                style="@style/Answers"
-                android:text="Birman" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-            <RadioButton
-                android:id="@+id/tabby"
-                style="@style/Answers"
-                android:text="Tabby" />
+                <RadioButton
+                    style="@style/Answers"
+                    android:text="Birman" />
 
-            <RadioButton
-                style="@style/Answers"
-                android:text="Persian" />
+                <RadioButton
+                    android:id="@+id/tabby"
+                    style="@style/Answers"
+                    android:text="Tabby" />
+
+                <RadioButton
+                    style="@style/Answers"
+                    android:text="Persian" />
+            </RadioGroup>
 
         </LinearLayout>
 
@@ -114,20 +125,26 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <CheckBox
-                android:id="@+id/blackAnswer"
-                style="@style/Answers"
-                android:text="Black" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-            <CheckBox
-                android:id="@+id/blueAnswer"
-                style="@style/Answers"
-                android:text="Blue" />
+                <CheckBox
+                    android:id="@+id/blackAnswer"
+                    style="@style/Answers"
+                    android:text="Black" />
 
-            <CheckBox
-                android:id="@+id/cyanAnswer"
-                style="@style/Answers"
-                android:text="Cyan" />
+                <CheckBox
+                    android:id="@+id/blueAnswer"
+                    style="@style/Answers"
+                    android:text="Blue" />
+
+                <CheckBox
+                    android:id="@+id/cyanAnswer"
+                    style="@style/Answers"
+                    android:text="Cyan" />
+            </RadioGroup>
         </LinearLayout>
 
         <TextView
@@ -143,18 +160,24 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <RadioButton
-                style="@style/Answers"
-                android:text="Chicory" />
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
 
-            <RadioButton
-                style="@style/Answers"
-                android:text="Amaranth" />
+                <RadioButton
+                    style="@style/Answers"
+                    android:text="Chicory" />
 
-            <RadioButton
-                android:id="@+id/kohlrabi"
-                style="@style/Answers"
-                android:text="Kohlrabi" />
+                <RadioButton
+                    style="@style/Answers"
+                    android:text="Amaranth" />
+
+                <RadioButton
+                    android:id="@+id/kohlrabi"
+                    style="@style/Answers"
+                    android:text="Kohlrabi" />
+            </RadioGroup>
 
         </LinearLayout>
 
@@ -185,6 +208,6 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Score"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
     </LinearLayout>
 </ScrollView>

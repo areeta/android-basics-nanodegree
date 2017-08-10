@@ -7,10 +7,11 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    int score = 0;
+    int score;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,25 +45,26 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //Question 3
-
         EditText mathQuestion = (EditText) findViewById(R.id.geometry_edit);
-        String geo = mathQuestion.getText().toString();
+        String geo = mathQuestion.getText().toString().trim();
 
-        if (geo.equals("Geometry")) {
+        if (geo.equalsIgnoreCase("Geometry")) {
             score += 100;
         } else {
             score -= 100;
         }
 
         //Question 4
-
         CheckBox blueButtonClicked = (CheckBox) findViewById(R.id.blueAnswer);
         Boolean hasBlue = blueButtonClicked.isChecked();
 
         CheckBox cyanButtonClicked = (CheckBox) findViewById(R.id.cyanAnswer);
         Boolean hasCyan = cyanButtonClicked.isChecked();
 
-        if (hasCyan == true & hasBlue == true) {
+        CheckBox blackButtonClicked = (CheckBox) findViewById(R.id.blackAnswer);
+        Boolean hasBlack = blackButtonClicked.isChecked();
+
+        if (hasCyan == true & hasBlue == true & hasBlack == false) {
             score += 100;
         } else {
             score -= 100;
@@ -79,10 +81,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //Question 6
-
         EditText computerQuestion = (EditText) findViewById(R.id.mac_edit);
         String mac = computerQuestion.getText().toString();
-
 
         if (mac.equals("Mac")) {
             score += 100;
@@ -91,9 +91,8 @@ public class MainActivity extends AppCompatActivity {
         }
 
         display(score);
-
+        Toast.makeText(this, "Your final score is: " + Integer.toString(score), Toast.LENGTH_SHORT).show();
     }
-
 
     /**
      * This method displays the given quantity value on the screen.
