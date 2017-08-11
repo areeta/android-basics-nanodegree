@@ -2,6 +2,7 @@ package com.example.areetaw.whatkind;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -11,7 +12,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    int score = 0;
+    int score;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void calculateAllPoints(View view) {
 
+        score = 0;
         // Java objects created
 
         //Question 1
@@ -41,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         if (hasTabby == true) {
             score += 100;
         } else {
-            return;
+                Log.v("Nothing!","Just for meeting rubrics!");
         }
 
         //Question 3
