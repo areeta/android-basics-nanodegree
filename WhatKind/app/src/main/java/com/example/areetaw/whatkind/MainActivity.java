@@ -40,8 +40,6 @@ public class MainActivity extends AppCompatActivity {
 
         if (hasTabby == true) {
             score += 100;
-        } else {
-            score -= 100;
         }
 
         //Question 3
@@ -50,8 +48,6 @@ public class MainActivity extends AppCompatActivity {
 
         if (geo.equalsIgnoreCase("Geometry")) {
             score += 100;
-        } else {
-            score -= 100;
         }
 
         //Question 4
@@ -64,10 +60,15 @@ public class MainActivity extends AppCompatActivity {
         CheckBox blackButtonClicked = (CheckBox) findViewById(R.id.blackAnswer);
         Boolean hasBlack = blackButtonClicked.isChecked();
 
-        if (hasCyan == true & hasBlue == true & hasBlack == false) {
+//        This following code is the same as the next but more detailed.
+//        if (hasCyan == true & hasBlue == true & hasBlack == false) {
+//            score += 100;
+//        } else {
+//            score -= 100;
+//        }
+
+        if (hasCyan && hasBlue && !hasBlack) {
             score += 100;
-        } else {
-            score -= 100;
         }
 
         //Question 5
@@ -76,8 +77,6 @@ public class MainActivity extends AppCompatActivity {
 
         if (hasKohlrabi == true) {
             score += 100;
-        } else {
-            score -= 100;
         }
 
         //Question 6
@@ -86,12 +85,20 @@ public class MainActivity extends AppCompatActivity {
 
         if (mac.equals("Mac")) {
             score += 100;
-        } else {
-            score -= 100;
         }
 
         display(score);
         Toast.makeText(this, "Your final score is: " + Integer.toString(score), Toast.LENGTH_SHORT).show();
+
+    }
+
+    /**
+     * This method resets the scores.
+     */
+
+    public void resetScore(View view) {
+        score = 0;
+        display(score);
     }
 
     /**

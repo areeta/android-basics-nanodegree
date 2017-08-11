@@ -12,7 +12,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_margin">9dp</item>
-        <item name="android:textSize">15dp</item>
+        <item name="android:textSize">15sp</item>
     </style>
 
     <style name="Questions">
@@ -20,7 +20,7 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_margin">5dp</item>
         <item name="android:fontFamily">sans-serif-smallcaps</item>
-        <item name="android:textSize">30dp</item>
+        <item name="android:textSize">30sp</item>
     </style>
 
     <style name="Edit_answers">
