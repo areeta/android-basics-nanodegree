@@ -11,7 +11,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    int score;
+    int score = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         // Java objects created
 
         //Question 1
-        RadioButton corgiButtonClicked = (RadioButton) findViewById(R.id.corgi);
+        RadioButton corgiButtonClicked = (RadioButton) findViewById(R.id.rb_corgi);
         boolean hasCorgi = corgiButtonClicked.isChecked();
 
         if (hasCorgi == true) {
@@ -35,11 +35,13 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //Question 2
-        RadioButton tabbyButtonClicked = (RadioButton) findViewById(R.id.tabby);
+        RadioButton tabbyButtonClicked = (RadioButton) findViewById(R.id.rb_tabby);
         boolean hasTabby = tabbyButtonClicked.isChecked();
 
         if (hasTabby == true) {
             score += 100;
+        } else {
+            return;
         }
 
         //Question 3
@@ -51,28 +53,22 @@ public class MainActivity extends AppCompatActivity {
         }
 
         //Question 4
-        CheckBox blueButtonClicked = (CheckBox) findViewById(R.id.blueAnswer);
+        CheckBox blueButtonClicked = (CheckBox) findViewById(R.id.cb_blueAnswer);
         Boolean hasBlue = blueButtonClicked.isChecked();
 
-        CheckBox cyanButtonClicked = (CheckBox) findViewById(R.id.cyanAnswer);
+        CheckBox cyanButtonClicked = (CheckBox) findViewById(R.id.cb_cyanAnswer);
         Boolean hasCyan = cyanButtonClicked.isChecked();
 
-        CheckBox blackButtonClicked = (CheckBox) findViewById(R.id.blackAnswer);
+        CheckBox blackButtonClicked = (CheckBox) findViewById(R.id.cb_blackAnswer);
         Boolean hasBlack = blackButtonClicked.isChecked();
 
-//        This following code is the same as the next but more detailed.
-//        if (hasCyan == true & hasBlue == true & hasBlack == false) {
-//            score += 100;
-//        } else {
-//            score -= 100;
-//        }
 
         if (hasCyan && hasBlue && !hasBlack) {
             score += 100;
         }
 
         //Question 5
-        RadioButton kohlrabiButtonClicked = (RadioButton) findViewById(R.id.kohlrabi);
+        RadioButton kohlrabiButtonClicked = (RadioButton) findViewById(R.id.rb_kohlrabi);
         boolean hasKohlrabi = kohlrabiButtonClicked.isChecked();
 
         if (hasKohlrabi == true) {

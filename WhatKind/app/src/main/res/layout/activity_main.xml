@@ -18,7 +18,7 @@
             android:fontFamily="sans-serif-smallcaps"
             android:gravity="center"
             android:text="What Kind?"
-            android:textSize="65sp" />
+            android:textSize="@dimen/whatKind" />
 
         <TextView
             android:layout_width="match_parent"
@@ -27,7 +27,7 @@
             android:fontFamily="casual"
             android:gravity="center"
             android:text="scroll down to play"
-            android:textSize="25sp" />
+            android:textSize="@dimen/scrollDownToPlay" />
 
         <TextView
             style="@style/Questions"
@@ -49,7 +49,7 @@
                 android:orientation="horizontal">
 
                 <RadioButton
-                    android:id="@+id/corgi"
+                    android:id="@+id/rb_corgi"
                     style="@style/Answers"
                     android:text="Corgi" />
 
@@ -87,7 +87,7 @@
                     android:text="Birman" />
 
                 <RadioButton
-                    android:id="@+id/tabby"
+                    android:id="@+id/rb_tabby"
                     style="@style/Answers"
                     android:text="Tabby" />
 
@@ -131,17 +131,17 @@
                 android:orientation="horizontal">
 
                 <CheckBox
-                    android:id="@+id/blackAnswer"
+                    android:id="@+id/cb_blackAnswer"
                     style="@style/Answers"
                     android:text="Black" />
 
                 <CheckBox
-                    android:id="@+id/blueAnswer"
+                    android:id="@+id/cb_blueAnswer"
                     style="@style/Answers"
                     android:text="Blue" />
 
                 <CheckBox
-                    android:id="@+id/cyanAnswer"
+                    android:id="@+id/cb_cyanAnswer"
                     style="@style/Answers"
                     android:text="Cyan" />
             </RadioGroup>
@@ -174,7 +174,7 @@
                     android:text="Amaranth" />
 
                 <RadioButton
-                    android:id="@+id/kohlrabi"
+                    android:id="@+id/rb_kohlrabi"
                     style="@style/Answers"
                     android:text="Kohlrabi" />
             </RadioGroup>
@@ -208,7 +208,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="Score"
-            android:textSize="30sp" />
+            android:textSize="@dimen/score" />
 
         <Button
             android:id="@+id/resetButton"
