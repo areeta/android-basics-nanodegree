@@ -34,4 +34,10 @@
         android:textSize="15sp"
         android:layout_margin="20dp"/>
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/android_pay_api"
+        android:layout_margin="30dp"/>
+
 </LinearLayout>
