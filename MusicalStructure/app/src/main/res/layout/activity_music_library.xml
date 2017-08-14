@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.areetaw.musicalstructure.MusicLibrary"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/Layout"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/menu_button"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:src="@drawable/menubutton" />
+
+        <EditText
+            android:id="@+id/search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/search_bar" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/artist_text_view"
+        style="@style/TextTheme"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/music_library_description"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:layout_margin="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/current_song"
+            style="@style/Button"
+            android:layout_margin="10dp"
+            android:padding="30dp"
+            android:text="Album" />
+
+        <Button
+            android:id="@+id/music_library"
+            style="@style/Button"
+            android:layout_margin="10dp"
+            android:padding="30dp"
+            android:text="Artist" />
+
+        <Button
+            android:id="@+id/payment"
+            style="@style/Button"
+            android:text="Song"
+            android:padding="30dp"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,3 +1,21 @@
 <resources>
     <string name="app_name">Musical Structure</string>
+    <string name="search_bar">Search</string>
+    <string name="imaginedragons">Imagine Dragons</string>
+    <string name="believer">Believer</string>
+    <string name="title_activity_menu">menu</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="current_song_activity">Current Song</string>
+    <string name="music_library_activity">Music Library</string>
+    <string name="payment_activity">Payment</string>
+
+    <string name="home_screen_description">This is a home screen where you can access other things.</string>
+    <string name="current_song_description">This is a current song screen where you can see what song is playing.</string>
+    <string name="music_library_description">This is a music library screen where you can search your library to find songs by album name, artist, or song name.</string>
+    <string name="payment_description">This is a payment screen where you can use Android Pay to buy our subscription.</string>
+
 </resources>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.areetaw.musicalstructure.Payment"
+    android:background="@color/colorBackground"
+    android:orientation="vertical">
+
+    <LinearLayout
+        style="@style/Layout"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/menu_button"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:src="@drawable/menubutton" />
+
+        <EditText
+            android:id="@+id/search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/search_bar" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/artist_text_view"
+        style="@style/TextTheme"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/payment_description"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>

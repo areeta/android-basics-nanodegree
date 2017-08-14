@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context="com.example.areetaw.musicalstructure.CurrentSong">
+
+    <LinearLayout
+        style="@style/Layout"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/menu_button"
+            android:layout_width="53dp"
+            android:layout_height="53dp"
+            android:src="@drawable/menubutton" />
+
+        <EditText
+            android:id="@+id/search_bar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/search_bar" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/current_song_text_view"
+        style="@style/TextTheme"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/current_song_description"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:layout_margin="20dp"/>
+
+    <LinearLayout
+        style="@style/Layout"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ablum_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="32dp"
+            android:src="@drawable/albumname" />
+
+        <ImageView
+            android:id="@+id/artist_image_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/artists" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Layout"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/song_text_view"
+            style="@style/TextTheme"
+            android:fontFamily="sans-serif"
+            android:text="@string/believer"
+            android:textSize="50sp" />
+
+        <TextView
+            android:id="@+id/artist_text_view"
+            style="@style/TextTheme"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/imaginedragons"
+            android:textAllCaps="true"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/Layout"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/repeat_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/repeatoncebutton"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/backward_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/backwardbutton"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/play_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/playbutton"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/forward_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/forwardbutton"
+            android:layout_weight="1"/>
+
+        <ImageButton
+            android:id="@+id/loop_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/loopbutton"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

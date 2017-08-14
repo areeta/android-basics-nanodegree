@@ -1,26 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.areetaw.musicalstructure.MainActivity"
-    android:layout_margin="16dp"
-    android:orientation="vertical">
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    tools:context="com.example.areetaw.musicalstructure.MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="210dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:src="@drawable/logo" />
 
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@drwwa"/>
+    <TextView
+        android:id="@+id/artist_text_view"
+        style="@style/TextTheme"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/home_screen_description"
+        android:textAllCaps="true"
+        android:textSize="15sp"
+        android:layout_margin="20dp"/>
 
+    <Button
+        style="@style/Button"
+        android:id="@+id/current_song"
+        android:text="Currently Playing" />
 
-    </LinearLayout>
+    <Button
+        style="@style/Button"
+        android:id="@+id/music_library"
+        android:text="Music Library" />
 
-
+    <Button
+        style="@style/Button"
+        android:id="@+id/payment"
+        android:text="Payment"/>
 
 </LinearLayout>
