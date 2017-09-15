@@ -2,7 +2,8 @@ package com.example.android.miwok;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
+import android.widget.LinearLayout;
+import android.widget.TextView;
 
 import java.util.ArrayList;
 
@@ -24,18 +25,15 @@ public class NumbersActivity extends AppCompatActivity {
         words.add(5, "six");
         words.add(6, "seven");
         words.add(7, "eight");
-        words.add(8,"nine");
+        words.add(8, "nine");
         words.add(9, "ten");
 
-        Log.v("NumberActivity", "Word at index 0: " + words.get(0));
-        Log.v("NumberActivity", "Word at index 1: " + words.get(1));
-        Log.v("NumberActivity", "Word at index 2: " + words.get(2));
-        Log.v("NumberActivity", "Word at index 3: " + words.get(3));
-        Log.v("NumberActivity", "Word at index 4: " + words.get(4));
-        Log.v("NumberActivity", "Word at index 5: " + words.get(5));
-        Log.v("NumberActivity", "Word at index 6: " + words.get(6));
-        Log.v("NumberActivity", "Word at index 7: " + words.get(7));
-        Log.v("NumberActivity", "Word at index 8: " + words.get(8));
-        Log.v("NumberActivity", "Word at index 9: " + words.get(9));
+        LinearLayout rootView = (LinearLayout) findViewById(R.id.rootView);
+
+        for(int viewCounter = 0; viewCounter < words.size(); viewCounter++) {
+            TextView wordView = new TextView(this);
+            wordView.setText(words.get(viewCounter));
+            rootView.addView(wordView);
+        }
     }
 }
